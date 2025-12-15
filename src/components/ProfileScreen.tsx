@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { User } from 'lucide-react';
 import { BottomNavigation } from './BottomNavigation';
-import profilpic from './assets/profil.png';
+import profilpic from '../assets/profil.png';
 
 export function ProfileScreen({ userData, onUpdateProfile, onLogout, currentTab, onTabChange }) {
   const [formData, setFormData] = useState({
