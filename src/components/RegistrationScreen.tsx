@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 
 export function RegistrationScreen({ onComplete }) {
   const [formData, setFormData] = useState({
-    firstName: 'Luca',
-    lastName: 'Burghardt',
-    email: 'bulu1021@h-ka.de',
+    firstName: 'Max',
+    lastName: 'Mustermann',
+    email: 'test123@h-ka.de',
     password: '123',
     university: '',
     studyProgram: ''
